@@ -12,7 +12,7 @@ class Show < ActiveRecord::Base
   end
   
   def build_network(letters)
-    self.network = Network.create(:call_letters = letters)
+    self.network = Network.create(call_letters: letters)
   end
   
 end
