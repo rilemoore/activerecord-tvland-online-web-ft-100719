@@ -11,7 +11,7 @@ class Show < ActiveRecord::Base
     end
   end
   
-  def build_network
+  def build_network(letters)
     
   end
   
